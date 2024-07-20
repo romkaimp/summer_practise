@@ -23,6 +23,9 @@ class Message(metaclass=abc.ABCMeta):
     def encode(self, **kwargs) -> str:
         pass
 
+    def __str__(self):
+        return self.__doc__
+
 
 class SLAEMessage(Message):
     """SLAEMessage - адаптер, который меняет своё поведение в зависимости от разных типов данных"""
@@ -104,6 +107,9 @@ class SLAEMessage(Message):
                 return json.dumps(msg, **kwargs)
             return json.dumps(msg)
 
+    def __str__(self):
+        return self.__doc__
+
 
 class Encoder:
     """Encoder - клиентский интерфейс, аггрегирует Message"""
@@ -114,6 +120,9 @@ class Encoder:
         encoded_message = self.msg.encode(**kwargs)
         infoLogger.info("Message encoded")
         return encoded_message
+
+    def __str__(self):
+        return self.__doc__
 
 
 if __name__ == "__main__":
