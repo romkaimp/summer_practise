@@ -28,6 +28,9 @@ class SLAE:
         self.start_v = start_variation
         self.param_check()
 
+    def set_start_var(self, var):
+        self.start_v = var
+
     def param_check(self) -> Any:
         """Проверка валидности параметров"""
         if self.r < 1 or self.n < 0 or self.k < 1:
