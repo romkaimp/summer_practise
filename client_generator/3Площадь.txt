@@ -1,0 +1,189 @@
+{
+  "1": {
+    "condition": " уравнением $\\begin{cases}  x=\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{t}{3}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "3*pi",
+    "answerLatex": "3\\pi"
+  }
+},
+{
+  "2": {
+    "condition": " уравнением $\\begin{cases}  x=\\frac{4}{3}\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{4t}{9}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "16*pi/3",
+    "answerLatex": "\\frac{16}{3}\\pi"
+  }
+},
+{
+  "3": {
+    "condition": " уравнением $\\begin{cases}  x=\\frac{5}{3}\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{5t}{9}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "25*pi/3",
+    "answerLatex": "\\frac{25}{3}\\pi"
+  }
+},
+{
+  "4": {
+    "condition": " уравнением $\\begin{cases}  x=2\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{2t}{3}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "12*pi",
+    "answerLatex": "12\\pi"
+  }
+},
+{
+  "5": {
+    "condition": " уравнением $\\begin{cases}  x=\\frac{7}{3}\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{7t}{9}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "49*pi/3",
+    "answerLatex": "\\frac{49}{3}\\pi"
+  }
+},
+{
+  "6": {
+    "condition": " уравнением $\\begin{cases}  x=\\frac{8}{3}\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{8t}{9}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "64*pi/3",
+    "answerLatex": "\\frac{64}{3}\\pi"
+  }
+},
+{
+  "7": {
+    "condition": " уравнением $\\begin{cases}  x=3\\left( {{t}^{2}}+1 \\right) \\\\ y=\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "27*pi",
+    "answerLatex": "27\\pi"
+  }
+},
+{
+  "8": {
+    "condition": " уравнением $\\begin{cases}  x=\\frac{10}{3}\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{10t}{9}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "100*pi/3",
+    "answerLatex": "\\frac{100}{3}\\pi"
+  }
+},
+{
+  "9": {
+    "condition": " уравнением $\\begin{cases}  x=\\frac{11}{3}\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{11t}{9}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "121*pi/3",
+    "answerLatex": "\\frac{121}{3}\\pi"
+  }
+},
+{
+  "10": {
+    "condition": " уравнением $\\begin{cases}  x=4\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{4t}{3}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "48*pi",
+    "answerLatex": "48\\pi"
+  }
+},
+{
+  "11": {
+    "condition": " уравнением $\\begin{cases}  x=\\frac{13}{3}\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{13t}{9}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "169*pi/3",
+    "answerLatex": "\\frac{169}{3}\\pi"
+  }
+},
+{
+  "12": {
+    "condition": " уравнением $\\begin{cases}  x=\\frac{14}{3}\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{14t}{9}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "196*pi/3",
+    "answerLatex": "\\frac{196}{3}\\pi"
+  }
+},
+{
+  "13": {
+    "condition": " уравнением $\\begin{cases}  x=5\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{5t}{3}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "75*pi",
+    "answerLatex": "75\\pi"
+  }
+},
+{
+  "14": {
+    "condition": " уравнением $\\begin{cases}  x=\\frac{16}{3}\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{16t}{9}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "256*pi/3",
+    "answerLatex": "\\frac{256}{3}\\pi"
+  }
+},
+{
+  "15": {
+    "condition": " уравнением $\\begin{cases}  x=\\frac{17}{3}\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{17t}{9}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "289*pi/3",
+    "answerLatex": "\\frac{289}{3}\\pi"
+  }
+},
+{
+  "16": {
+    "condition": " уравнением $\\begin{cases}  x=6\\left( {{t}^{2}}+1 \\right) \\\\ y={2t}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "108*pi",
+    "answerLatex": "108\\pi"
+  }
+},
+{
+  "17": {
+    "condition": " уравнением $\\begin{cases}  x=\\frac{19}{3}\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{19t}{9}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "361*pi/3",
+    "answerLatex": "\\frac{361}{3}\\pi"
+  }
+},
+{
+  "18": {
+    "condition": " уравнением $\\begin{cases}  x=\\frac{20}{3}\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{20t}{9}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "400*pi/3",
+    "answerLatex": "\\frac{400}{3}\\pi"
+  }
+},
+{
+  "19": {
+    "condition": " уравнением $\\begin{cases}  x=7\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{7t}{3}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "147*pi",
+    "answerLatex": "147\\pi"
+  }
+},
+{
+  "20": {
+    "condition": " уравнением $\\begin{cases}  x=\\frac{22}{3}\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{22t}{9}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "484*pi/3",
+    "answerLatex": "\\frac{484}{3}\\pi"
+  }
+},
+{
+  "21": {
+    "condition": " уравнением $\\begin{cases}  x=\\frac{23}{3}\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{23t}{9}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "529*pi/3",
+    "answerLatex": "\\frac{529}{3}\\pi"
+  }
+},
+{
+  "22": {
+    "condition": " уравнением $\\begin{cases}  x=8\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{8t}{3}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "192*pi",
+    "answerLatex": "192\\pi"
+  }
+},
+{
+  "23": {
+    "condition": " уравнением $\\begin{cases}  x=\\frac{25}{3}\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{25t}{9}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "625*pi/3",
+    "answerLatex": "\\frac{625}{3}\\pi"
+  }
+},
+{
+  "24": {
+    "condition": " уравнением $\\begin{cases}  x=\\frac{26}{3}\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{26t}{9}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "676*pi/3",
+    "answerLatex": "\\frac{676}{3}\\pi"
+  }
+},
+{
+  "25": {
+    "condition": " уравнением $\\begin{cases}  x=9\\left( {{t}^{2}}+1 \\right) \\\\ y={3t}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "243*pi",
+    "answerLatex": "243\\pi"
+  }
+},
+{
+  "26": {
+    "condition": " уравнением $\\begin{cases}  x=\\frac{28}{3}\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{28t}{9}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "784*pi/3",
+    "answerLatex": "\\frac{784}{3}\\pi"
+  }
+},
+{
+  "27": {
+    "condition": " уравнением $\\begin{cases}  x=\\frac{29}{3}\\left( {{t}^{2}}+1 \\right) \\\\ y=\\frac{29t}{9}\\left( 3-{{t}^{2}} \\right)  \\end{cases}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$",
+    "answer": "841*pi/3",
+    "answerLatex": "\\frac{841}{3}\\pi"
+  }
+},

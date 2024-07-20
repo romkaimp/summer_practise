@@ -124,7 +124,7 @@ class SurfaceAreaMsg(Message):
     def encode(self, **kwargs) -> str:
         if isinstance(self.s_a, SA.SurfaceArea1):
             msg = dict()
-            msg["1"] = dict()
+            msg[self.s_a.var] = dict()
             if Rational(self.s_a.a * 3).q != 1:
                 frac_string = f"\\frac{{{Rational(self.s_a.a * 3).p}}}{{{Rational(self.s_a.a * 3).q}}}"
             else:
@@ -132,19 +132,19 @@ class SurfaceAreaMsg(Message):
                     frac_string = ""
                 else:
                     frac_string = f"{self.s_a.a*3}"
-            msg["1"]["condition"] = f" уравнением ${{{{y}}^{{2}}}}={{{self.s_a.a.q}}}\\frac{{x}}{{{9 * self.s_a.a.p}}}{{{{\\left( {frac_string}-x \\right)}}^{2}}}}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OX$"
-            msg["1"]["answer"] = str(self.ans)
+            msg[self.s_a.var]["condition"] = f" уравнением ${{{{y}}^{{2}}}}={{{self.s_a.a.q}}}\\frac{{x}}{{{9 * self.s_a.a.p}}}{{{{\\left( {frac_string}-x \\right)}}^{2}}}}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OX$"
+            msg[self.s_a.var]["answer"] = str(self.ans)
             a_rat = Rational(self.ans / pi)
             if a_rat.q == 1:
-                msg["1"]["answerLatex"] = f"{a_rat}\\pi"
+                msg[self.s_a.var]["answerLatex"] = f"{a_rat}\\pi"
             else:
-                msg["1"]["answerLatex"] = f"\\frac{{{a_rat.p}}}{{{a_rat.q}}}\\pi"
+                msg[self.s_a.var]["answerLatex"] = f"\\frac{{{a_rat.p}}}{{{a_rat.q}}}\\pi"
             if len(kwargs) != 0:
                 return json.dumps(msg, ensure_ascii=False, **kwargs)
             return json.dumps(msg, ensure_ascii=False)
         if isinstance(self.s_a, SA.SurfaceArea2):
             msg = dict()
-            msg["1"] = dict()
+            msg[self.s_a.var] = dict()
             if Rational(self.s_a.a * 3).q != 1:
                 frac_string = f"\\frac{{{Rational(self.s_a.a * 3).p}}}{{{Rational(self.s_a.a * 3).q}}}"
             else:
@@ -158,23 +158,23 @@ class SurfaceAreaMsg(Message):
             else:
                 frac_string2 = f"{{{self.s_a.a.q}}}"
 
-            msg["1"][
+            msg[self.s_a.var][
                 "condition"] = f" уравнением ${{{{y}}^{{2}}}}={frac_string2}\\frac{{x}}{{{9 * self.s_a.a.p}}}{{{{\\left( {frac_string}-x \\right)}}^{2}}}}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$"
 
-            msg["1"]["answer"] = str(self.ans)
+            msg[self.s_a.var]["answer"] = str(self.ans)
 
             a_rat = Rational(self.ans / pi / sqrt(3))
             if a_rat.q == 1:
                 frac_string = f"{{{a_rat.p}}}"
             else:
                 frac_string = f"\\frac{{{a_rat.p}}}{{{a_rat.q}}}"
-            msg["1"]["answerLatex"] = f"{frac_string}\\pi\\sqrt{{3}}"
+            msg[self.s_a.var]["answerLatex"] = f"{frac_string}\\pi\\sqrt{{3}}"
             if len(kwargs) != 0:
                 return json.dumps(msg, ensure_ascii=False, **kwargs)
             return json.dumps(msg, ensure_ascii=False)
         if isinstance(self.s_a, SA.SurfaceArea3):
             msg = dict()
-            msg["1"] = dict()
+            msg[self.s_a.var] = dict()
             if self.s_a.a.q != 1:
                 frac_string = f"\\frac{{{self.s_a.a.p}}}{{{self.s_a.a.q}}}"
             else:
@@ -193,36 +193,36 @@ class SurfaceAreaMsg(Message):
                     frac_string2 = ""
                 else:
                     frac_string2 = f"{{{Rational(self.s_a.a / 3).p}t}}"
-            msg["1"][
+            msg[self.s_a.var][
                 "condition"] = f" уравнением $\\begin{{cases}}  x={frac_string}\\left( {{{{t}}^{{2}}}}+1 \\right) \\\\ y={frac_string2}\\left( 3-{{{{t}}^{{2}}}} \\right)  \\end{{cases}}$ с ограничениями $1 \\le x \\le 4$, ось вращения - $OX$"
 
-            msg["1"]["answer"] = str(self.ans)
+            msg[self.s_a.var]["answer"] = str(self.ans)
 
             a_rat = Rational(self.ans / pi)
             if a_rat.q == 1:
-                msg["1"]["answerLatex"] = f"{a_rat}\\pi"
+                msg[self.s_a.var]["answerLatex"] = f"{a_rat}\\pi"
             else:
-                msg["1"]["answerLatex"] = f"\\frac{{{a_rat.p}}}{{{a_rat.q}}}\\pi"
+                msg[self.s_a.var]["answerLatex"] = f"\\frac{{{a_rat.p}}}{{{a_rat.q}}}\\pi"
             if len(kwargs) != 0:
                 return json.dumps(msg, ensure_ascii=False, **kwargs)
             return json.dumps(msg, ensure_ascii=False)
         if isinstance(self.s_a, SA.SurfaceArea4):
             msg = dict()
-            msg["1"] = dict()
+            msg[self.s_a.var] = dict()
             if self.s_a.a.q == 1:
                 frac_string = ""
             else:
                 frac_string = str(self.s_a.a.q)
-            msg["1"][
+            msg[self.s_a.var][
                 "condition"] = f" уравнением $r=\\frac{{{self.s_a.a.p}}}{{{frac_string}{{{{{{\\cos }}^{{2}}}}\\frac{{\\varphi }}{{2}}}}}}$ с ограничениями $0\\le \\varphi \\le \frac{{\\pi }}{{2}}$, ось вращения - $OX$"
 
-            msg["1"]["answer"] = str(self.ans)
+            msg[self.s_a.var]["answer"] = str(self.ans)
 
             a_rat = Rational(self.s_a.a * self.s_a.a * 8 / 3)
             if a_rat.q == 1:
-                msg["1"]["answerLatex"] = f"{a_rat}\\pi{{2\\sqrt{{2}}-1}}"
+                msg[self.s_a.var]["answerLatex"] = f"{a_rat}\\pi{{2\\sqrt{{2}}-1}}"
             else:
-                msg["1"]["answerLatex"] = f"\\frac{{{a_rat.p}}}{{{a_rat.q}}}\\pi\\left({{2\\sqrt{{2}}-1}}\\right)"
+                msg[self.s_a.var]["answerLatex"] = f"\\frac{{{a_rat.p}}}{{{a_rat.q}}}\\pi\\left({{2\\sqrt{{2}}-1}}\\right)"
             if len(kwargs) != 0:
                 return json.dumps(msg, ensure_ascii=False, **kwargs)
             return json.dumps(msg, ensure_ascii=False)
@@ -260,7 +260,7 @@ class Generator:
             else:
                 end = 27
             for i, sa in enumerate(self.obj):
-               if i > end:
+               if i >= end:
                    break
                surf_message: Message = SurfaceAreaMsg(sa)
                encoder = Encoder(surf_message)

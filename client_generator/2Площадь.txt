@@ -1,0 +1,189 @@
+{
+  "1": {
+    "condition": " уравнением ${{y}^{2}}=\\frac{x}{9}{{\\left( 3-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "56*sqrt(3)*pi/5",
+    "answerLatex": "\\frac{56}{5}\\pi\\sqrt{3}"
+  }
+},
+{
+  "2": {
+    "condition": " уравнением ${{y}^{2}}={3}\\frac{x}{36}{{\\left( 4-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "896*sqrt(3)*pi/45",
+    "answerLatex": "\\frac{896}{45}\\pi\\sqrt{3}"
+  }
+},
+{
+  "3": {
+    "condition": " уравнением ${{y}^{2}}={3}\\frac{x}{45}{{\\left( 5-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "280*sqrt(3)*pi/9",
+    "answerLatex": "\\frac{280}{9}\\pi\\sqrt{3}"
+  }
+},
+{
+  "4": {
+    "condition": " уравнением ${{y}^{2}}=\\frac{x}{18}{{\\left( 6-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "224*sqrt(3)*pi/5",
+    "answerLatex": "\\frac{224}{5}\\pi\\sqrt{3}"
+  }
+},
+{
+  "5": {
+    "condition": " уравнением ${{y}^{2}}={3}\\frac{x}{63}{{\\left( 7-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "2744*sqrt(3)*pi/45",
+    "answerLatex": "\\frac{2744}{45}\\pi\\sqrt{3}"
+  }
+},
+{
+  "6": {
+    "condition": " уравнением ${{y}^{2}}={3}\\frac{x}{72}{{\\left( 8-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "3584*sqrt(3)*pi/45",
+    "answerLatex": "\\frac{3584}{45}\\pi\\sqrt{3}"
+  }
+},
+{
+  "7": {
+    "condition": " уравнением ${{y}^{2}}=\\frac{x}{27}{{\\left( 9-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "504*sqrt(3)*pi/5",
+    "answerLatex": "\\frac{504}{5}\\pi\\sqrt{3}"
+  }
+},
+{
+  "8": {
+    "condition": " уравнением ${{y}^{2}}={3}\\frac{x}{90}{{\\left( 10-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "1120*sqrt(3)*pi/9",
+    "answerLatex": "\\frac{1120}{9}\\pi\\sqrt{3}"
+  }
+},
+{
+  "9": {
+    "condition": " уравнением ${{y}^{2}}={3}\\frac{x}{99}{{\\left( 11-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "6776*sqrt(3)*pi/45",
+    "answerLatex": "\\frac{6776}{45}\\pi\\sqrt{3}"
+  }
+},
+{
+  "10": {
+    "condition": " уравнением ${{y}^{2}}=\\frac{x}{36}{{\\left( 12-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "896*sqrt(3)*pi/5",
+    "answerLatex": "\\frac{896}{5}\\pi\\sqrt{3}"
+  }
+},
+{
+  "11": {
+    "condition": " уравнением ${{y}^{2}}={3}\\frac{x}{117}{{\\left( 13-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "9464*sqrt(3)*pi/45",
+    "answerLatex": "\\frac{9464}{45}\\pi\\sqrt{3}"
+  }
+},
+{
+  "12": {
+    "condition": " уравнением ${{y}^{2}}={3}\\frac{x}{126}{{\\left( 14-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "10976*sqrt(3)*pi/45",
+    "answerLatex": "\\frac{10976}{45}\\pi\\sqrt{3}"
+  }
+},
+{
+  "13": {
+    "condition": " уравнением ${{y}^{2}}=\\frac{x}{45}{{\\left( 15-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "280*sqrt(3)*pi",
+    "answerLatex": "{280}\\pi\\sqrt{3}"
+  }
+},
+{
+  "14": {
+    "condition": " уравнением ${{y}^{2}}={3}\\frac{x}{144}{{\\left( 16-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "14336*sqrt(3)*pi/45",
+    "answerLatex": "\\frac{14336}{45}\\pi\\sqrt{3}"
+  }
+},
+{
+  "15": {
+    "condition": " уравнением ${{y}^{2}}={3}\\frac{x}{153}{{\\left( 17-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "16184*sqrt(3)*pi/45",
+    "answerLatex": "\\frac{16184}{45}\\pi\\sqrt{3}"
+  }
+},
+{
+  "16": {
+    "condition": " уравнением ${{y}^{2}}=\\frac{x}{54}{{\\left( 18-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "2016*sqrt(3)*pi/5",
+    "answerLatex": "\\frac{2016}{5}\\pi\\sqrt{3}"
+  }
+},
+{
+  "17": {
+    "condition": " уравнением ${{y}^{2}}={3}\\frac{x}{171}{{\\left( 19-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "20216*sqrt(3)*pi/45",
+    "answerLatex": "\\frac{20216}{45}\\pi\\sqrt{3}"
+  }
+},
+{
+  "18": {
+    "condition": " уравнением ${{y}^{2}}={3}\\frac{x}{180}{{\\left( 20-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "4480*sqrt(3)*pi/9",
+    "answerLatex": "\\frac{4480}{9}\\pi\\sqrt{3}"
+  }
+},
+{
+  "19": {
+    "condition": " уравнением ${{y}^{2}}=\\frac{x}{63}{{\\left( 21-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "2744*sqrt(3)*pi/5",
+    "answerLatex": "\\frac{2744}{5}\\pi\\sqrt{3}"
+  }
+},
+{
+  "20": {
+    "condition": " уравнением ${{y}^{2}}={3}\\frac{x}{198}{{\\left( 22-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "27104*sqrt(3)*pi/45",
+    "answerLatex": "\\frac{27104}{45}\\pi\\sqrt{3}"
+  }
+},
+{
+  "21": {
+    "condition": " уравнением ${{y}^{2}}={3}\\frac{x}{207}{{\\left( 23-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "29624*sqrt(3)*pi/45",
+    "answerLatex": "\\frac{29624}{45}\\pi\\sqrt{3}"
+  }
+},
+{
+  "22": {
+    "condition": " уравнением ${{y}^{2}}=\\frac{x}{72}{{\\left( 24-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "3584*sqrt(3)*pi/5",
+    "answerLatex": "\\frac{3584}{5}\\pi\\sqrt{3}"
+  }
+},
+{
+  "23": {
+    "condition": " уравнением ${{y}^{2}}={3}\\frac{x}{225}{{\\left( 25-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "7000*sqrt(3)*pi/9",
+    "answerLatex": "\\frac{7000}{9}\\pi\\sqrt{3}"
+  }
+},
+{
+  "24": {
+    "condition": " уравнением ${{y}^{2}}={3}\\frac{x}{234}{{\\left( 26-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "37856*sqrt(3)*pi/45",
+    "answerLatex": "\\frac{37856}{45}\\pi\\sqrt{3}"
+  }
+},
+{
+  "25": {
+    "condition": " уравнением ${{y}^{2}}=\\frac{x}{81}{{\\left( 27-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "4536*sqrt(3)*pi/5",
+    "answerLatex": "\\frac{4536}{5}\\pi\\sqrt{3}"
+  }
+},
+{
+  "26": {
+    "condition": " уравнением ${{y}^{2}}={3}\\frac{x}{252}{{\\left( 28-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "43904*sqrt(3)*pi/45",
+    "answerLatex": "\\frac{43904}{45}\\pi\\sqrt{3}"
+  }
+},
+{
+  "27": {
+    "condition": " уравнением ${{y}^{2}}={3}\\frac{x}{261}{{\\left( 29-x \\right)}^2}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$",
+    "answer": "47096*sqrt(3)*pi/45",
+    "answerLatex": "\\frac{47096}{45}\\pi\\sqrt{3}"
+  }
+},

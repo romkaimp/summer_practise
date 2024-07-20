@@ -1,0 +1,126 @@
+{
+  "1": {
+    "condition": " уравнением $r=\\frac{1}{{{{\\cos }^{2}}\\frac{\\varphi }{2}}}$ с ограничениями $0\\le \\varphi \\le \frac{\\pi }{2}$, ось вращения - $OX$",
+    "answer": "8*pi*(-1 + 2*sqrt(2))/3",
+    "answerLatex": "\\frac{8}{3}\\pi\\left({2\\sqrt{2}-1}\\right)"
+  }
+},
+{
+  "2": {
+    "condition": " уравнением $r=\\frac{3}{2{{{\\cos }^{2}}\\frac{\\varphi }{2}}}$ с ограничениями $0\\le \\varphi \\le \frac{\\pi }{2}$, ось вращения - $OX$",
+    "answer": "6*pi*(-1 + 2*sqrt(2))",
+    "answerLatex": "6\\pi{2\\sqrt{2}-1}"
+  }
+},
+{
+  "3": {
+    "condition": " уравнением $r=\\frac{2}{{{{\\cos }^{2}}\\frac{\\varphi }{2}}}$ с ограничениями $0\\le \\varphi \\le \frac{\\pi }{2}$, ось вращения - $OX$",
+    "answer": "32*pi*(-1 + 2*sqrt(2))/3",
+    "answerLatex": "\\frac{32}{3}\\pi\\left({2\\sqrt{2}-1}\\right)"
+  }
+},
+{
+  "4": {
+    "condition": " уравнением $r=\\frac{5}{2{{{\\cos }^{2}}\\frac{\\varphi }{2}}}$ с ограничениями $0\\le \\varphi \\le \frac{\\pi }{2}$, ось вращения - $OX$",
+    "answer": "50*pi*(-1 + 2*sqrt(2))/3",
+    "answerLatex": "\\frac{50}{3}\\pi\\left({2\\sqrt{2}-1}\\right)"
+  }
+},
+{
+  "5": {
+    "condition": " уравнением $r=\\frac{3}{{{{\\cos }^{2}}\\frac{\\varphi }{2}}}$ с ограничениями $0\\le \\varphi \\le \frac{\\pi }{2}$, ось вращения - $OX$",
+    "answer": "24*pi*(-1 + 2*sqrt(2))",
+    "answerLatex": "24\\pi{2\\sqrt{2}-1}"
+  }
+},
+{
+  "6": {
+    "condition": " уравнением $r=\\frac{7}{2{{{\\cos }^{2}}\\frac{\\varphi }{2}}}$ с ограничениями $0\\le \\varphi \\le \frac{\\pi }{2}$, ось вращения - $OX$",
+    "answer": "98*pi*(-1 + 2*sqrt(2))/3",
+    "answerLatex": "\\frac{98}{3}\\pi\\left({2\\sqrt{2}-1}\\right)"
+  }
+},
+{
+  "7": {
+    "condition": " уравнением $r=\\frac{4}{{{{\\cos }^{2}}\\frac{\\varphi }{2}}}$ с ограничениями $0\\le \\varphi \\le \frac{\\pi }{2}$, ось вращения - $OX$",
+    "answer": "128*pi*(-1 + 2*sqrt(2))/3",
+    "answerLatex": "\\frac{128}{3}\\pi\\left({2\\sqrt{2}-1}\\right)"
+  }
+},
+{
+  "8": {
+    "condition": " уравнением $r=\\frac{9}{2{{{\\cos }^{2}}\\frac{\\varphi }{2}}}$ с ограничениями $0\\le \\varphi \\le \frac{\\pi }{2}$, ось вращения - $OX$",
+    "answer": "54*pi*(-1 + 2*sqrt(2))",
+    "answerLatex": "54\\pi{2\\sqrt{2}-1}"
+  }
+},
+{
+  "9": {
+    "condition": " уравнением $r=\\frac{5}{{{{\\cos }^{2}}\\frac{\\varphi }{2}}}$ с ограничениями $0\\le \\varphi \\le \frac{\\pi }{2}$, ось вращения - $OX$",
+    "answer": "200*pi*(-1 + 2*sqrt(2))/3",
+    "answerLatex": "\\frac{200}{3}\\pi\\left({2\\sqrt{2}-1}\\right)"
+  }
+},
+{
+  "10": {
+    "condition": " уравнением $r=\\frac{11}{2{{{\\cos }^{2}}\\frac{\\varphi }{2}}}$ с ограничениями $0\\le \\varphi \\le \frac{\\pi }{2}$, ось вращения - $OX$",
+    "answer": "242*pi*(-1 + 2*sqrt(2))/3",
+    "answerLatex": "\\frac{242}{3}\\pi\\left({2\\sqrt{2}-1}\\right)"
+  }
+},
+{
+  "11": {
+    "condition": " уравнением $r=\\frac{6}{{{{\\cos }^{2}}\\frac{\\varphi }{2}}}$ с ограничениями $0\\le \\varphi \\le \frac{\\pi }{2}$, ось вращения - $OX$",
+    "answer": "96*pi*(-1 + 2*sqrt(2))",
+    "answerLatex": "96\\pi{2\\sqrt{2}-1}"
+  }
+},
+{
+  "12": {
+    "condition": " уравнением $r=\\frac{13}{2{{{\\cos }^{2}}\\frac{\\varphi }{2}}}$ с ограничениями $0\\le \\varphi \\le \frac{\\pi }{2}$, ось вращения - $OX$",
+    "answer": "338*pi*(-1 + 2*sqrt(2))/3",
+    "answerLatex": "\\frac{338}{3}\\pi\\left({2\\sqrt{2}-1}\\right)"
+  }
+},
+{
+  "13": {
+    "condition": " уравнением $r=\\frac{7}{{{{\\cos }^{2}}\\frac{\\varphi }{2}}}$ с ограничениями $0\\le \\varphi \\le \frac{\\pi }{2}$, ось вращения - $OX$",
+    "answer": "392*pi*(-1 + 2*sqrt(2))/3",
+    "answerLatex": "\\frac{392}{3}\\pi\\left({2\\sqrt{2}-1}\\right)"
+  }
+},
+{
+  "14": {
+    "condition": " уравнением $r=\\frac{15}{2{{{\\cos }^{2}}\\frac{\\varphi }{2}}}$ с ограничениями $0\\le \\varphi \\le \frac{\\pi }{2}$, ось вращения - $OX$",
+    "answer": "150*pi*(-1 + 2*sqrt(2))",
+    "answerLatex": "150\\pi{2\\sqrt{2}-1}"
+  }
+},
+{
+  "15": {
+    "condition": " уравнением $r=\\frac{8}{{{{\\cos }^{2}}\\frac{\\varphi }{2}}}$ с ограничениями $0\\le \\varphi \\le \frac{\\pi }{2}$, ось вращения - $OX$",
+    "answer": "512*pi*(-1 + 2*sqrt(2))/3",
+    "answerLatex": "\\frac{512}{3}\\pi\\left({2\\sqrt{2}-1}\\right)"
+  }
+},
+{
+  "16": {
+    "condition": " уравнением $r=\\frac{17}{2{{{\\cos }^{2}}\\frac{\\varphi }{2}}}$ с ограничениями $0\\le \\varphi \\le \frac{\\pi }{2}$, ось вращения - $OX$",
+    "answer": "578*pi*(-1 + 2*sqrt(2))/3",
+    "answerLatex": "\\frac{578}{3}\\pi\\left({2\\sqrt{2}-1}\\right)"
+  }
+},
+{
+  "17": {
+    "condition": " уравнением $r=\\frac{9}{{{{\\cos }^{2}}\\frac{\\varphi }{2}}}$ с ограничениями $0\\le \\varphi \\le \frac{\\pi }{2}$, ось вращения - $OX$",
+    "answer": "216*pi*(-1 + 2*sqrt(2))",
+    "answerLatex": "216\\pi{2\\sqrt{2}-1}"
+  }
+},
+{
+  "18": {
+    "condition": " уравнением $r=\\frac{19}{2{{{\\cos }^{2}}\\frac{\\varphi }{2}}}$ с ограничениями $0\\le \\varphi \\le \frac{\\pi }{2}$, ось вращения - $OX$",
+    "answer": "722*pi*(-1 + 2*sqrt(2))/3",
+    "answerLatex": "\\frac{722}{3}\\pi\\left({2\\sqrt{2}-1}\\right)"
+  }
+},
