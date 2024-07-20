@@ -152,13 +152,23 @@ class SurfaceAreaMsg(Message):
                     frac_string = ""
                 else:
                     frac_string = f"{self.s_a.a * 3}"
+
+            if self.s_a.a.q == 1:
+                frac_string2 = ""
+            else:
+                frac_string2 = f"{{{self.s_a.a.q}}}"
+
             msg["1"][
-                "condition"] = f" уравнением ${{{{y}}^{{2}}}}={{{self.s_a.a.q}}}\\frac{{x}}{{{9 * self.s_a.a.p}}}{{{{\\left( {frac_string}-x \\right)}}^{2}}}}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$"
+                "condition"] = f" уравнением ${{{{y}}^{{2}}}}={frac_string2}\\frac{{x}}{{{9 * self.s_a.a.p}}}{{{{\\left( {frac_string}-x \\right)}}^{2}}}}}$с ограничениями $0 \\le x \\le 3$, ось вращения - $OY$"
 
             msg["1"]["answer"] = str(self.ans)
 
             a_rat = Rational(self.ans / pi / sqrt(3))
-            msg["1"]["answerLatex"] = f"\\frac{{{a_rat.p}}}{{{a_rat.q}}}\\pi\\sqrt{{3}}"
+            if a_rat.q == 1:
+                frac_string = f"{{{a_rat.p}}}"
+            else:
+                frac_string = f"\\frac{{{a_rat.p}}}{{{a_rat.q}}}"
+            msg["1"]["answerLatex"] = f"{frac_string}\\pi\\sqrt{{3}}"
             if len(kwargs) != 0:
                 return json.dumps(msg, ensure_ascii=False, **kwargs)
             return json.dumps(msg, ensure_ascii=False)
@@ -212,7 +222,7 @@ class SurfaceAreaMsg(Message):
             if a_rat.q == 1:
                 msg["1"]["answerLatex"] = f"{a_rat}\\pi{{2\\sqrt{{2}}-1}}"
             else:
-                msg["1"]["answerLatex"] = f"\\frac{{{a_rat.p}}}{{{a_rat.q}}}\\pi{{2\\sqrt{{2}}-1}}"
+                msg["1"]["answerLatex"] = f"\\frac{{{a_rat.p}}}{{{a_rat.q}}}\\pi\\left({{2\\sqrt{{2}}-1}}\\right)"
             if len(kwargs) != 0:
                 return json.dumps(msg, ensure_ascii=False, **kwargs)
             return json.dumps(msg, ensure_ascii=False)
@@ -244,9 +254,13 @@ class Generator:
                 slae_message: Message = SLAEMessage(self.obj)
                 encoder = Encoder(slae_message)
                 yield encoder.json_encode(indent=2)
-        if isinstance(self.obj, SA.SurfaceArea):  # obj = SA.SurfaceArea1(...) / SA.SurfaceArea2(...)
+        if isinstance(self.obj, SA.SurfaceArea): # obj = SA.SurfaceArea1(...) / SA.SurfaceArea2(...)
+            if isinstance(self.obj, SA.SurfaceArea4):
+                end = 18
+            else:
+                end = 27
             for i, sa in enumerate(self.obj):
-               if i > 27:
+               if i > end:
                    break
                surf_message: Message = SurfaceAreaMsg(sa)
                encoder = Encoder(surf_message)
