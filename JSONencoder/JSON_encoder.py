@@ -1,11 +1,8 @@
+"""Message - посредник между разными типами SLAE и Encoder"""
 import json
-
 import numpy as np
-
 from SLAE import SLAE
-
 import abc
-
 import logging
 
 infoLogger = logging.getLogger(__name__)
@@ -17,6 +14,7 @@ infoLogger.addHandler(py_handler)
 
 
 class Message(metaclass=abc.ABCMeta):
+    """Message - абстрактный класс, который инкапсулирует методы для работы с разными данными"""
     @abc.abstractmethod
     def __init__(self):
         pass
@@ -27,6 +25,7 @@ class Message(metaclass=abc.ABCMeta):
 
 
 class SLAEMessage(Message):
+    """SLAEMessage - адаптер, который меняет своё поведение в зависимости от разных типов данных"""
     def __init__(self, sl: SLAE):
         self.SLAE: SLAE = sl
         self.matrix: np.ndarray
@@ -107,6 +106,7 @@ class SLAEMessage(Message):
 
 
 class Encoder:
+    """Encoder - клиентский интерфейс, аггрегирует Message"""
     def __init__(self, msg: Message):
         self.msg = msg
 

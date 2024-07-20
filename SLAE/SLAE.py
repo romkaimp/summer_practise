@@ -67,7 +67,7 @@ class SLAE:
             # умножение matrix[j] * coeffs[j] с результатом вектором, например [1 3 0]*0 + [-5 -4 -10]*-4 = [20 5 50]
             matrix2 = np.dot(coeffs, matrix[:rows])
             matrix = np.append(matrix, [matrix2], axis=0)
-            b2 = np.dot(coeffs, b)
+            b2 = np.dot(coeffs, b[:rows])
             b = np.append(b, [b2], axis=0)
             infoLogger.info(f"new_row: row={matrix2} b={b2} coefficients={coeffs}")
 
@@ -104,5 +104,8 @@ class SLAEParam(SLAE):
 
 
 if __name__ == "__main__":
-    our_SLAE: SLAE = SLAEParam(3, 1, 3, 0)
-    print(our_SLAE.generate_random_matrix())
+    #our_SLAE: SLAE = SLAEParam(3, 1, 3, 0)
+    #print(our_SLAE.generate_random_matrix())
+
+    parametric_slae: SLAE = HomSLAE(3, 1, 3)
+    print(parametric_slae.generate_random_matrix())
