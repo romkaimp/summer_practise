@@ -1,6 +1,6 @@
 import unittest
 import logging
-from SLAE import homogeneous_SLAE as SLAE1
+from SLAE import SLAE
 import numpy as np
 
 infoLogger = logging.getLogger(__name__)
@@ -21,22 +21,24 @@ class SLAE1Tests(unittest.TestCase):
         for i, rnk in enumerate(params):
             infoLogger.info(f"test_validity {i}-iteration {rnk[0], rnk[1], rnk[2]}-params")
             try:
-                matrix = SLAE1.generate_random_matrix(rnk[0]-rnk[1], rnk[0], rnk[2], 0, 0)
+                slae = SLAE.SLAE(rnk[0], rnk[1], rnk[2])
+                matrix = slae.generate_random_matrix()[0]
                 self.assertIsInstance(matrix, np.ndarray, msg="isInstance")
                 self.assertEqual(matrix.shape[0], rnk[2])  # количество строк в матрице = k
                 self.assertEqual(matrix.shape[1], rnk[0])  # количество столбцов в матрице = r
-            except SLAE1.FalseParameters as err:
-                self.assertRaises(SLAE1.FalseParameters, SLAE1.param_check, *rnk)
+            except SLAE.FalseParameters as err:
+                self.assertRaises(SLAE.FalseParameters, SLAE.SLAE, *rnk)
 
     def test_matrix_rank(self):
         params = [generate_params() for i in range(100)]
         for i, rnk in enumerate(params):
             infoLogger.info(f"test_matrix_rank {i}-iteration {rnk[0], rnk[1], rnk[2]}-params")
             try:
-                matrix = SLAE1.generate_random_matrix(rnk[0] - rnk[1], rnk[0], rnk[2], 0, 0)
+                slae = SLAE.SLAE(rnk[0], rnk[1], rnk[2])
+                matrix = slae.generate_random_matrix()[0]
                 self.assertEqual(np.linalg.matrix_rank(matrix), rnk[0] - rnk[1])
                 self.assertEqual(matrix.shape[0], rnk[2])  # количество строк в матрице = k
                 self.assertEqual(matrix.shape[1], rnk[0])  # количество столбцов в матрице = r
-            except SLAE1.FalseParameters as err:
-                self.assertRaises(SLAE1.FalseParameters, SLAE1.param_check, *rnk)
+            except SLAE.FalseParameters as err:
+                self.assertRaises(SLAE.FalseParameters, SLAE.SLAE, *rnk)
 
