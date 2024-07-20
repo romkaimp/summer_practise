@@ -1,1 +1,1 @@
-![Архитектура1 drawio](https://github.com/user-attachments/assets/09f3cbc9-05be-4a48-b7c5-450b85aed3c7)
+![Архитектура2 drawio](https://github.com/user-attachments/assets/95b2ceb1-bc06-434b-955c-5fc985033717)
