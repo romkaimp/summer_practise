@@ -250,7 +250,7 @@ class Generator:
     def gen(self):
         if isinstance(self.obj, SLAE.SLAE):
             for i in range(self.count):  # obj = SLAE.HomSLAE(...) / SLAE.SLAE(...)
-                self.obj.set_start_var(i)
+                self.obj.set_start_var(self.obj.start_v + 1)
                 slae_message: Message = SLAEMessage(self.obj)
                 encoder = Encoder(slae_message)
                 yield encoder.json_encode(indent=2)
