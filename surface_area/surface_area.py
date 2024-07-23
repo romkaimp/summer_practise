@@ -18,6 +18,10 @@ infoLogger.addHandler(py_handler)
 class SurfaceArea:
     def __init__(self, a, b):
         self.a = Rational(a, b)
+        self.var = 1
+
+    def set_var(self, var):
+        self.var = var
 
     def generate_answer(self):
         pass
@@ -27,7 +31,9 @@ class SurfaceArea:
 
     def __next__(self):
         b = self.__class__(self.a.p, self.a.q)
+        b.set_var(self.var)
         self.a += Rational(1, 3)
+        self.var += 1
         return b
 
 
@@ -52,7 +58,9 @@ class SurfaceArea4(SurfaceArea):
 
     def __next__(self):
         b = self.__class__(self.a.p, self.a.q)
+        b.set_var(self.var)
         self.a += Rational(1, 2)
+        self.var += 1
         return b
 
 

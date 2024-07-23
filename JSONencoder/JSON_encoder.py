@@ -67,45 +67,46 @@ class SLAEMessage(Message):
 
     def encode(self, **kwargs) -> str:
         infoLogger.info(f"SLAE type: {self.SLAE}")
+        num = str(self.SLAE.start_v)
         if isinstance(self.SLAE, SLAE.SLAEParam):
             msg = dict()
-            msg["1"] = dict()
-            msg["1"]["condition"] = self._get_eqs()
-            msg["1"]["answer"] = dict()
+            msg[num] = dict()
+            msg[num]["condition"] = self._get_eqs()
+            msg[num]["answer"] = dict()
             # msg["1"]["answer"]["isConsistent"] = "yes"
             # msg["1"]["answer"]["rang"] = self.r - self.n
-            msg["1"]["answer"]["lambda"] = self.SLAE.lmb
-            msg["1"]["answer"]["n"] = self.SLAE.n
-            msg["1"]["answer"]["A"] = self.matrix.tolist()
-            msg["1"]["answer"]["b"] = self.b.reshape(self.SLAE.k).tolist()
+            msg[num]["answer"]["lambda"] = self.SLAE.lmb
+            msg[num]["answer"]["n"] = self.SLAE.n
+            msg[num]["answer"]["A"] = self.matrix.tolist()
+            msg[num]["answer"]["b"] = self.b.reshape(self.SLAE.k).tolist()
             # msg["1"]["answerLatex"] = "\\\\operatorname{rang} \\left( A \\left| B \\right. \\right)" + f" = {self.r - self.n}"
-            msg["1"]["answerLatex"] = f"\\lambda = {self.SLAE.lmb}"
+            msg[num]["answerLatex"] = f"\\lambda = {self.SLAE.lmb}"
             if len(kwargs) != 0:
                 return json.dumps(msg, **kwargs)
             return json.dumps(msg)
         elif isinstance(self.SLAE, SLAE.HomSLAE):
             msg = dict()
-            msg["1"] = dict()
-            msg["1"]["condition"] = self._get_eqs()
-            msg["1"]["isSolution"] = "yes"
-            msg["1"]["rang"] = self.SLAE.r - self.SLAE.n
-            msg["1"]["n"] = self.SLAE.n
-            msg["1"]["A"] = self.matrix.tolist()
-            msg["1"][
+            msg[num] = dict()
+            msg[num]["condition"] = self._get_eqs()
+            msg[num]["isSolution"] = "yes"
+            msg[num]["rang"] = self.SLAE.r - self.SLAE.n
+            msg[num]["n"] = self.SLAE.n
+            msg[num]["A"] = self.matrix.tolist()
+            msg[num][
                 "answerLatex"] = "\\\\operatorname{rang} \\left( A \\left| B \\right. \\right)" + f" = {self.SLAE.r - self.SLAE.n}"
             if len(kwargs) != 0:
                 return json.dumps(msg, **kwargs)
             return json.dumps(msg)
         elif isinstance(self.SLAE, SLAE.SLAE):
             msg = dict()
-            msg["1"] = dict()
-            msg["1"]["condition"] = self._get_eqs()
-            msg["1"]["answer"] = dict()
-            msg["1"]["answer"]["isConsistent"] = "yes"
-            msg["1"]["answer"]["rang"] = self.SLAE.r - self.SLAE.n
-            msg["1"]["answer"]["n"] = self.SLAE.n
-            msg["1"]["answer"]["A"] = self.matrix.tolist()
-            msg["1"]["answer"]["b"] = self.b.reshape(self.SLAE.k).tolist()
+            msg[num] = dict()
+            msg[num]["condition"] = self._get_eqs()
+            msg[num]["answer"] = dict()
+            msg[num]["answer"]["isConsistent"] = "yes"
+            msg[num]["answer"]["rang"] = self.SLAE.r - self.SLAE.n
+            msg[num]["answer"]["n"] = self.SLAE.n
+            msg[num]["answer"]["A"] = self.matrix.tolist()
+            msg[num]["answer"]["b"] = self.b.reshape(self.SLAE.k).tolist()
             # msg["1"]["answerLatex"] = "\\\\operatorname{rang} \\left( A \\left| B \\right. \\right)" + f" = {self.r - self.n}"
             if len(kwargs) != 0:
                 return json.dumps(msg, **kwargs)
